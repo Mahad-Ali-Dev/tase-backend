@@ -1,0 +1,27 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime files
+.pnp*
+
+# Environment variables
+.env
+.env.*.local
+
+# Dependency directories
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Editor folders
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+Desktop.ini

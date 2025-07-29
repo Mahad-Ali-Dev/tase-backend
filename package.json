@@ -1,0 +1,25 @@
+{
+  "name": "tase_backend",
+  "version": "1.0.0",
+  "description": "backend for tase",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "mongoose , express , backend , nodejs"
+  ],
+  "author": "Mahad Ali",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.5",
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2"
+  }
+}
