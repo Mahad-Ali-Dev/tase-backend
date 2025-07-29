@@ -21,6 +21,8 @@ app.use(express.urlencoded({extended: true, limit: "16kb"}));
 app.use(express.static("public"));
 
 // Routes
+import healthCheckRoute from './routes/healthcheck.routes.js';
+app.use('/health', healthCheckRoute);
 import InquiryRouter from "./routes/inquiry.routes.js";
 app.use("/api/v1/inquiry", InquiryRouter);
 
